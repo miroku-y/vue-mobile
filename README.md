@@ -83,12 +83,12 @@ File                                    Size              Gzipped
 File                                    Size              Gzipped
 dist/js/chunk-vendors.0d574823.js       235.97 KiB        71.92 KiB
 
-###优化总结：
-1、在未做任何优化时编译后会生成vendor.js,index.js,css      
-        |__vue.js,vue-router,vuex    
-        |__core.js,vconsole.js,axios.js    
-vendor--|__babel-polyfill.js    
-        |__runtime.js     
+###优化总结：     
+1、在未做任何优化时编译后会生成vendor.js,index.js,css          
+        |__vue.js,vue-router,vuex          
+        |__core.js,vconsole.js,axios.js         
+vendor--|__babel-polyfill.js        
+        |__runtime.js         
 
 以上第三方包都会默认打包到vendor.js中，可以把vue,vue-router,vuex通过cdn进行引入，减小vendor的包体积
 2、拆分index.js,通过plugin-syntax-dynamic-import路由懒加载，让对应的路由页面加载对应的js文件
