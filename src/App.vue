@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <router-view></router-view>
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <TabBar/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import TabBar from './components/TabBar.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    // HelloWorld
+    TabBar
   }
 }
 </script>
@@ -23,6 +27,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  padding-bottom: 41px;
+}
+ul,li,div,body,html{
+  margin:0;
+  padding:0;
 }
 </style>
