@@ -22,8 +22,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 ### 概览
-<img src="https://github.com/yangdongMC/vue-mobile/blob/master/src/assets/index.jpeg" width="375" margin="20" alt='首页'><img src="https://github.com/yangdongMC/vue-mobile/blob/master/src/assets/list.png" width="375" alt='首页'>  
-<img src="https://github.com/yangdongMC/vue-mobile/blob/master/src/assets/video.png" width="375" margin="20" alt='首页'><img src="https://github.com/yangdongMC/vue-mobile/blob/master/src/assets/socket.png" width="375" alt='首页'>  
+<img src="https://github.com/yangdongMC/vue-mobile/blob/master/src/assets/index.jpeg" width="375" margin="20" alt='首页'>  <img src="https://github.com/yangdongMC/vue-mobile/blob/master/src/assets/list.png" width="375" alt='首页'>  
+
+<img src="https://github.com/yangdongMC/vue-mobile/blob/master/src/assets/video.png" width="375" margin="20" alt='首页'>  <img src="https://github.com/yangdongMC/vue-mobile/blob/master/src/assets/socket.png" width="375" alt='首页'>  
 
 ### 开发记录
 1、全局安装了vue-cli
